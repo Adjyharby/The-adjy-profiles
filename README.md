@@ -19,11 +19,6 @@
     width: 100%;
 }
 
-/*.introparts
-{
-
-}*/
-
 .namedrop
 {
     margin-top: 10%; 
