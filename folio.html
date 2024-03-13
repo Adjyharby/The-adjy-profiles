@@ -6,17 +6,22 @@
     <title>Noel Salazar</title>
 </head>
 <style>
+    /* add this to prevent unncesseary margins in the entire body */
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
 /*add position-fixed vertical bar menu*/
 .floatingbar
 {
     opacity: 100%;
     margin-left: 0;
-    margin-top: -10px;
     position: fixed;
     border: 3px;
     background-color: rgb(19, 19, 19);
     padding-right: 2%;
     width: 100%;
+    z-index: 2; /* this would put the bar at front as always */
 }
 
 hr
@@ -52,6 +57,62 @@ display: flex;
 </style>
 
 <body style="background-color: black; font-size: larger; color: aliceblue; font-size: 20px; font-family: 'Times New Roman', Times, serif;">
+    <div class="floatingbar" style="display: flex; font-family: felix titling; text-align: center; margin-left: -1%; border-bottom: 2px solid black;" >
+        
+        <div  style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%; width: 15%;">
+            <p style="font-size: 20px; margin-top: 25px; width: max-content;">
+                <a href="index.html" style="color: aliceblue; "><u>Back to profile page</u></a>
+            </p>
+        </div>
+            
+        <div>
+            <p style="width:50px; padding-left:  10%; ;"> 
+                &nbsp;
+            </p>
+        </div>
+    
+        <div style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%;">
+            <p style=" margin-top: 27%;">
+                    <a href="#oldarts" style="color: aliceblue; text-decoration: none;">Old Arts</a>
+            </p>
+        </div>
+        
+        <div>
+            <p style="width:10px;"> 
+                &nbsp;
+            </p>
+        </div>
+    
+        <div style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%;">
+            <p style=" margin-top: 27%;">
+                    <a href="#newarts" style="color: aliceblue; text-decoration: none;">New Arts</a>
+            </p>
+        </div>
+    
+        <div>
+            <p style="width:10px;"> 
+                &nbsp;
+            </p>
+        </div>
+    
+        <div style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%; width: max-content;">
+            <p style=" margin-top: 13.33%;">
+                    <a href="#animations" style="color: aliceblue; text-decoration: none;">Sample Animations</a>
+            </p>
+        </div>
+    
+        <div style="border: 3px solid black; width: 0px; margin-left: 9.70%; opacity: 50%;">
+            <p>&nbsp;</p>
+        </div>
+        
+        <div style="margin-left: 5%; margin-right: 5%; margin-top: 5px; margin-bottom: -3px;">
+            <a href="https://m.me/"><img src="icon.png" width="64"></a>
+        </div> 
+    
+        <div style="border: 3px solid black; width: 0px; opacity: 50%;">
+            <p>&nbsp;</p>
+        </div>
+    </div>
 
     <div style="position: absolute; margin-top: 46px; margin-left: 1px;" id="banner">
         <img src="banner.png" width="1456" height="100">
@@ -189,61 +250,6 @@ display: flex;
     Sample Animations    
 </p>
 
-<div class="floatingbar" style="display: flex; font-family: felix titling; text-align: center; margin-left: -1%; margin-top: -2348px; border-bottom: 2px solid black;" >
-        
-    <div  style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%; width: 15%;">
-        <p style="font-size: 20px; margin-top: 25px; width: max-content;">
-            <a href="activity4.html" style="color: aliceblue; "><u>Back to profile page</u></a>
-        </p>
-    </div>
-        
-    <div>
-        <p style="width:50px; padding-left:  10%; ;"> 
-            &nbsp;
-        </p>
-    </div>
 
-    <div style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%;">
-        <p style=" margin-top: 27%;">
-                <a href="#oldarts" style="color: aliceblue; text-decoration: none;">Old Arts</a>
-        </p>
-    </div>
-    
-    <div>
-        <p style="width:10px;"> 
-            &nbsp;
-        </p>
-    </div>
-
-    <div style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%;">
-        <p style=" margin-top: 27%;">
-                <a href="#newarts" style="color: aliceblue; text-decoration: none;">New Arts</a>
-        </p>
-    </div>
-
-    <div>
-        <p style="width:10px;"> 
-            &nbsp;
-        </p>
-    </div>
-
-    <div style="border: 2px solid black; margin-left: 2%; padding-left:  2%; padding-right: 2%; width: max-content;">
-        <p style=" margin-top: 13.33%;">
-                <a href="#animations" style="color: aliceblue; text-decoration: none;">Sample Animations</a>
-        </p>
-    </div>
-
-    <div style="border: 3px solid black; width: 0px; margin-left: 9.70%; opacity: 50%;">
-        <p>&nbsp;</p>
-    </div>
-    
-    <div style="margin-left: 5%; margin-right: 5%; margin-top: 5px; margin-bottom: -3px;">
-        <a href="https://m.me/"><img src="icon.png" width="64"></a>
-    </div> 
-
-    <div style="border: 3px solid black; width: 0px; opacity: 50%;">
-        <p>&nbsp;</p>
-    </div>
-</div>
 </body>
 </html>
