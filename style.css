@@ -1,0 +1,127 @@
+/*from the main page*/
+
+/* add this to prevent unncesseary margins in the entire body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*add position-fixed vertical bar menu*/
+.floatingbar {
+  display: flex;
+  opacity: 100%;
+  margin-left: 0;
+  position: fixed;
+  border: 3px;
+  background-color: rgb(19, 19, 19);
+  padding-right: 2%;
+  width: 100%;
+  z-index: 2; /* this would put the bar at front as always */
+}
+
+/*.introparts
+{
+
+}*/
+
+.namedrop {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 12%;
+}
+
+.aboutme {
+  /*put the "about you" stuffs here along with your skills and abilities*/
+  margin-left: 5%;
+  width: 58%;
+}
+
+.business {
+  /*add your contact info, your business board and other business related stuffs*/
+  margin-left: 5%;
+}
+
+/*.interests
+{
+}
+*/
+
+.others {
+  /*put your other stuff, trivial stuffs here*/
+  margin-left: 3%;
+}
+
+hr {
+  height: 20px;
+  background-color: rgb(36, 0, 63);
+  border-color: rgb(36, 0, 63);
+}
+
+.flexcon1 {
+  display: flex;
+  margin-left: 20px;
+  width: 70%;
+}
+
+.b1 {
+  border: 2px solid rgb(36, 0, 63);
+  width: 20%;
+  min-width: 175px;
+  padding-left: 5%;
+  line-height: 25px;
+  margin-left: 1%;
+}
+
+.b2 {
+  border: 2px solid rgb(36, 0, 63);
+  width: 20%;
+  min-width: 175px;
+  padding-left: 3%;
+  padding-right: 2%;
+  line-height: 25px;
+  margin-left: 1%;
+}
+
+.b3 {
+  border: 2px solid rgb(36, 0, 63);
+  width: 20%;
+  min-width: 175px;
+  padding-right: 2%;
+  padding-left: 3%;
+  margin-left: 1%;
+}
+
+.listlist {
+  margin-left: 35px;
+  display: flex;
+  width: 54%;
+  min-width: 450px;
+}
+
+.likelist {
+  border: 2px solid rgb(36, 0, 63);
+  width: 70%;
+  margin-right: 10px;
+}
+
+.dislikelist {
+  border: 2px solid rgb(36, 0, 63);
+  width: 70%;
+}
+
+/* for Folio page*/
+
+.introd {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/*cool css hack: use colons for multiple classes with the same styling*/
+
+.setone,
+.settwo,
+.animset {
+  display: flex;
+}
